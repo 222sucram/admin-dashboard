@@ -272,9 +272,9 @@ table {
 }
 
 .main-content {
-    background-image: url(img/admin-bg-5.png);
-    background-size: contain;
+    background-image: url(img/admin-bg-6.png);
     background-color: var(--off-grey);
+    background-position-y: 20px;
     display: grid;
     grid-template-columns: minmax(350px, 2fr) minmax(350px, 2fr) 1fr;
     grid-template-rows: 1fr repeat(3, 4fr); 
