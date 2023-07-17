@@ -217,8 +217,12 @@ table {
     height: 96%;
     display: grid;
     grid-template-columns: 2fr 4fr 1px;
-    grid-template-rows: 4fr repeat(5, 1fr) 4fr repeat(3, 1fr);
+    grid-template-rows: 1fr repeat(5, 1fr) 1fr repeat(3, 1fr);
     gap: 20px;
+}
+
+.tag-sidebar.groups {
+    margin-bottom: 85px;
 }
 
 .logo {
@@ -230,19 +234,27 @@ table {
 .title {
     grid-column: 2 / 3;
     font-size: 32px;
-    color: var(--off-white);
+    color: var(--aqua);
     padding-top: 15px;
     transition: 0.2s ease-in;
     font-weight: 600;
+    margin-bottom: 85px;
 }
 
 .title-color {
+    color: var(--off-white);
+    border-bottom: 1px solid var(--dark-purple);
+    transition: 0.5s ease-in-out;
+}
+
+.title-color:hover {
     color: var(--aqua);
+    border-bottom: 5px solid var(--off-white);
 }
 
 .title:hover {
     cursor: pointer;
-    color: var(--purple);
+    color: var(--off-white);
 }
 
 
